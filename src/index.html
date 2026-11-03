@@ -6,209 +6,856 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2AA2A0">
+    <meta name="description"
+          content="Découvrez les classes préparatoires scientifiques du lycée Victor Hugo à Caen.">
 
-    <title>CPGE Victor Hugo - Caen</title>
+    <title>Accueil | CPGE Victor Hugo — Caen</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         HEADER : MENU DU SITE
-    ========================== -->
+<a class="skip-link" href="#contenu">
+    Aller au contenu
+</a>
 
-    <header class="site-header">
+<!-- =====================================
+     1. HEADER ET NAVIGATION
+===================================== -->
 
-        <div class="header-container">
+<header class="site-header">
+    <div class="header-inner container">
 
-            <!-- LOGO -->
-            <a href="./" class="logo">
-                <span class="logo-vh">VH</span>
+        <!-- Logo -->
+        <a class="brand" href="./"
+           aria-label="CPGE Victor Hugo — accueil">
 
-                <span class="logo-text">
-                    CPGE<br>
-                    VICTOR HUGO<br>
-                    CAEN
-                </span>
+            <span class="brand-mark" aria-hidden="true">
+                V<span>H</span><i></i>
+            </span>
+
+            <span class="brand-name">
+                CPGE<br>
+                VICTOR HUGO<br>
+                CAEN
+            </span>
+        </a>
+
+        <!-- Navigation ordinateur -->
+        <nav class="desktop-nav"
+             aria-label="Navigation principale">
+
+            <a href="la-cpge/">La CPGE</a>
+            <a href="une-semaine/">Une semaine à VH</a>
+            <a href="au-dela-des-cours/">Au-delà des cours</a>
+            <a href="temoignages/">Témoignages</a>
+            <a href="apres-la-prepa/">Après la prépa</a>
+            <a href="faq/">FAQ</a>
+            <a href="infos-pratiques/">Infos pratiques</a>
+
+            <a class="nav-cta" href="candidater/">
+                Candidater ↗
             </a>
+        </nav>
 
-            <!-- BOUTON MENU MOBILE -->
-            <input type="checkbox"
-                   id="menu-mobile"
-                   class="menu-checkbox">
+        <!-- Menu mobile sans JavaScript -->
+        <details class="mobile-nav">
+            <summary>
+                Menu
+                <span class="menu-symbol"
+                      aria-hidden="true">☰</span>
+            </summary>
 
-            <label for="menu-mobile" class="menu-button">
-                ☰ Menu
-            </label>
-
-            <!-- NAVIGATION PRINCIPALE -->
-            <nav class="navigation"
-                 aria-label="Navigation principale">
+            <nav class="mobile-nav-links"
+                 aria-label="Navigation mobile">
 
                 <a href="la-cpge/">La CPGE</a>
-
-                <a href="une-semaine/">
-                    Une semaine à VH
-                </a>
-
-                <a href="au-dela-des-cours/">
-                    Au-delà des cours
-                </a>
-
-                <a href="temoignages/">
-                    Témoignages
-                </a>
-
-                <a href="apres-la-prepa/">
-                    Après la prépa
-                </a>
-
+                <a href="une-semaine/">Une semaine à VH</a>
+                <a href="au-dela-des-cours/">Au-delà des cours</a>
+                <a href="temoignages/">Témoignages</a>
+                <a href="apres-la-prepa/">Après la prépa</a>
                 <a href="faq/">FAQ</a>
+                <a href="infos-pratiques/">Infos pratiques</a>
 
-                <a href="infos-pratiques/">
-                    Infos pratiques
+                <a class="nav-cta" href="candidater/">
+                    Candidater ↗
                 </a>
-
-                <a href="candidater/" class="btn-candidater">
-                    Candidater →
-                </a>
-
             </nav>
-
-        </div>
-
-    </header>
-
-    <!-- =========================
-         CONTENU DE L'ACCUEIL
-         À construire ensuite
-    ========================== -->
-
-    <main>
-
-    <!-- ========================
-         SECTION 1 : ACCUEIL
-    ========================= -->
-
-    <section class="hero">
-
-        <div class="hero-container">
-
-            <!-- TEXTE PRINCIPAL -->
-            <div class="hero-content">
-
-                <p class="hero-subtitle">
-                    CPGE SCIENTIFIQUE<br>
-                    LYCÉE VICTOR HUGO - CAEN
-                </p>
-
-                <h1>
-                    Une prépa à taille humaine
-                    <span>
-                        pour de grandes ambitions.
-                    </span>
-                </h1>
-
-                <p class="hero-filieres">
-                    PCSI • PC • PC* • PSI
-                </p>
-
-                <!-- BOUTONS -->
-                <div class="hero-buttons">
-
-                    <a href="la-cpge/" class="btn-primary">
-                        Découvrir la CPGE →
-                    </a>
-
-                    <a href="candidater/" class="btn-secondary">
-                        Candidater →
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- PHOTO À AJOUTER PLUS TARD -->
-            <div class="hero-photo">
-
-                <p>Photographie à venir</p>
-
-            </div>
-
-        </div>
-
-    </section>
-    
-<!-- =========================
-     SECTION 2 : POURQUOI VH ?
-========================= -->
-
-<section class="avantages">
-
-    <h2>Pourquoi Victor Hugo ?</h2>
-
-    <div class="avantages-container">
-
-        <!-- AVANTAGE 1 -->
-        <article class="avantage">
-            <div class="avantage-icon">👥</div>
-            <h3>Une prépa à taille humaine</h3>
-            <p>
-                Des promotions où chacun
-                trouve sa place.
-            </p>
-        </article>
-
-        <!-- AVANTAGE 2 -->
-        <article class="avantage">
-            <div class="avantage-icon">♥</div>
-            <h3>Une équipe engagée</h3>
-            <p>
-                Des enseignants accessibles
-                et impliqués dans votre réussite.
-            </p>
-        </article>
-
-        <!-- AVANTAGE 3 -->
-        <article class="avantage">
-            <div class="avantage-icon">⚗</div>
-            <h3>Des laboratoires dédiés</h3>
-            <p>
-                Des conditions d'étude adaptées
-                aux formations scientifiques.
-            </p>
-        </article>
-
-        <!-- AVANTAGE 4 -->
-        <article class="avantage">
-            <div class="avantage-icon">⛰</div>
-            <h3>Des temps de partage</h3>
-            <p>
-                Ski, forum, visites,
-                sport et gala.
-            </p>
-        </article>
-
-        <!-- AVANTAGE 5 -->
-        <article class="avantage">
-            <div class="avantage-icon">⌖</div>
-            <h3>Une vie étudiante dynamique</h3>
-            <p>
-                À Caen, entre mer,
-                campus et qualité de vie.
-            </p>
-        </article>
+        </details>
 
     </div>
+</header>
 
-    <a href="la-cpge/" class="btn-secondary">
-        En savoir plus sur la CPGE →
-    </a>
+
+<main id="contenu">
+
+<!-- =====================================
+     2. HERO - PRESENTATION PRINCIPALE
+===================================== -->
+
+<section class="home-hero">
+
+    <div class="container home-hero-grid">
+
+        <div class="home-hero-copy">
+
+            <p class="eyebrow">
+                CPGE SCIENTIFIQUE ·
+                LYCÉE VICTOR HUGO · CAEN
+            </p>
+
+            <h1>
+                Une prépa à taille humaine
+                <em>pour de grandes ambitions.</em>
+            </h1>
+
+            <p class="hero-tracks">
+                PCSI <span>•</span>
+                PC <span>•</span>
+                PC* <span>•</span>
+                PSI
+            </p>
+
+            <p class="hero-intro">
+                Des sciences, de l'exigence et surtout
+                des personnes qui avancent ensemble.
+            </p>
+
+            <div class="button-row">
+
+                <a class="button button--primary"
+                   href="la-cpge/">
+                    Découvrir la CPGE ↗
+                </a>
+
+                <a class="button button--outline"
+                   href="candidater/">
+                    Candidater ↗
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Photo à ajouter -->
+        <div class="hero-visual">
+
+            <div class="media-slot media-snow"
+                 aria-hidden="true">
+
+                <span class="media-note">
+                    Photo à ajouter
+                </span>
+
+                <strong>
+                    UNE PROMOTION, DES PROJETS COMMUNS
+                </strong>
+            </div>
+
+            <span class="visual-sticker">
+                Un esprit<br>de promo
+            </span>
+
+        </div>
+
+    </div>
 
 </section>
 
 
+<!-- =====================================
+     3. POURQUOI VICTOR HUGO ?
+===================================== -->
+
+<section class="section" id="pourquoi">
+
+    <div class="container">
+
+        <div class="section-heading section-heading--center">
+
+            <p class="eyebrow">CE QUI NOUS RESSEMBLE</p>
+
+            <h2>Pourquoi Victor Hugo ?</h2>
+
+        </div>
+
+        <div class="reasons-grid">
+
+            <article class="reason">
+                <span class="reason-number">01</span>
+                <h3>À taille humaine</h3>
+                <p>
+                    Des promotions dans lesquelles
+                    on se connaît et où chacun
+                    peut trouver sa place.
+                </p>
+            </article>
+
+            <article class="reason">
+                <span class="reason-number">02</span>
+                <h3>Une équipe engagée</h3>
+                <p>
+                    Des enseignants accessibles,
+                    attentifs aux progrès et aux
+                    difficultés de chacun.
+                </p>
+            </article>
+
+            <article class="reason">
+                <span class="reason-number">03</span>
+                <h3>Des laboratoires dédiés</h3>
+                <p>
+                    De la physique, de la chimie
+                    et des sciences de l'ingénieur
+                    au cœur de la formation.
+                </p>
+            </article>
+
+            <article class="reason">
+                <span class="reason-number">04</span>
+                <h3>Des moments partagés</h3>
+                <p>
+                    Forum, rencontres, visites
+                    et séjour au ski : la prépa
+                    ne s'arrête pas aux cours.
+                </p>
+            </article>
+
+            <article class="reason">
+                <span class="reason-number">05</span>
+                <h3>Une ville étudiante</h3>
+                <p>
+                    Caen, son campus, ses transports
+                    et sa vie étudiante à proximité
+                    du lycée.
+                </p>
+            </article>
+
+        </div>
+
+        <div class="section-actions">
+            <a class="button button--outline"
+               href="la-cpge/">
+                En savoir plus sur la CPGE ↗
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     4. UNE SEMAINE A VH
+===================================== -->
+
+<section class="section section--soft">
+
+    <div class="container split split--wide-right">
+
+        <div class="split-copy">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">LES JOURNÉES À VH</p>
+
+                <h2>Une semaine à VH</h2>
+
+            </div>
+
+            <p>
+                Cours, TP, colles, travail en groupe,
+                TIPE et sport : un quotidien rythmé,
+                mais jamais réduit à une suite de notes.
+            </p>
+
+            <a class="button button--primary"
+               href="une-semaine/">
+                Découvrir le quotidien ↗
+            </a>
+
+        </div>
+
+        <div class="week-grid">
+
+            <div class="week-tile">
+                <div class="media-slot media-class"
+                     aria-hidden="true">
+                    <span class="media-note">Photo à ajouter</span>
+                    <strong>COURS</strong>
+                </div>
+                <span>Cours</span>
+            </div>
+
+            <div class="week-tile">
+                <div class="media-slot media-lab"
+                     aria-hidden="true">
+                    <span class="media-note">Photo à ajouter</span>
+                    <strong>TRAVAUX PRATIQUES</strong>
+                </div>
+                <span>TP</span>
+            </div>
+
+            <div class="week-tile">
+                <div class="media-slot media-warm"
+                     aria-hidden="true">
+                    <span class="media-note">Photo à ajouter</span>
+                    <strong>COLLES</strong>
+                </div>
+                <span>Colles</span>
+            </div>
+
+            <div class="week-tile">
+                <div class="media-slot media-sage"
+                     aria-hidden="true">
+                    <span class="media-note">Photo à ajouter</span>
+                    <strong>SPORT ET PAUSES</strong>
+                </div>
+                <span>Sport</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     5. AU-DELA DES COURS
+===================================== -->
+
+<section class="adventure-section">
+
+    <div class="adventure-image">
+
+        <div class="media-slot media-snow"
+             aria-hidden="true">
+
+            <span class="media-note">
+                Photo à ajouter
+            </span>
+
+            <strong>
+                LES MOMENTS QU'ON GARDE
+            </strong>
+
+        </div>
+
+    </div>
+
+    <div class="adventure-content">
+
+        <p class="eyebrow eyebrow--light">
+            LES SOUVENIRS AUSSI COMPTENT
+        </p>
+
+        <h2>Au-delà des cours</h2>
+
+        <p>
+            La prépa se vit aussi en dehors
+            de la salle de classe : des rencontres,
+            des découvertes et de vrais temps
+            de partage.
+        </p>
+
+        <ul class="inline-tags">
+            <li>Ski</li>
+            <li>Forum</li>
+            <li>Gala</li>
+            <li>Musées</li>
+            <li>Visites</li>
+        </ul>
+
+        <a class="button button--light"
+           href="au-dela-des-cours/">
+            Découvrir l'aventure ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     6. TEMOIGNAGES
+===================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading section-heading--center">
+
+            <p class="eyebrow">
+                LEURS MOTS, LEUR EXPÉRIENCE
+            </p>
+
+            <h2>Ils sont passés par VH</h2>
+
+            <p>
+                Ce sont les étudiantes et les étudiants
+                qui racontent le mieux cette expérience.
+            </p>
+
+        </div>
+
+        <div class="cards cards--3 testimonials-carousel"
+             role="region"
+             aria-label="Témoignages des anciens étudiants"
+             tabindex="0">
+
+            <!-- ANOUK -->
+            <article class="quote-card">
+
+                <span class="quote-mark"
+                      aria-hidden="true">“</span>
+
+                <blockquote>
+                    « C'est important de bien s'entourer,
+                    traverser les mêmes épreuves crée
+                    des amitiés qui comptent. »
+                </blockquote>
+
+                <div class="quote-person">
+
+                    <span class="person-avatar">A</span>
+
+                    <p>
+                        <strong>Anouk</strong>
+                        <small>
+                            Promo 2020–2023 · INP Grenoble
+                        </small>
+                    </p>
+
+                </div>
+
+            </article>
+
+            <!-- INES -->
+            <article class="quote-card">
+
+                <span class="quote-mark"
+                      aria-hidden="true">“</span>
+
+                <blockquote>
+                    « Avec le recul, je pense que la prépa
+                    m'a avant tout permis de gagner
+                    confiance en moi. »
+                </blockquote>
+
+                <div class="quote-person">
+
+                    <span class="person-avatar">I</span>
+
+                    <p>
+                        <strong>Inès</strong>
+                        <small>
+                            Promo 2021–2023 · IMT Mines Alès
+                        </small>
+                    </p>
+
+                </div>
+
+            </article>
+
+            <!-- CHARLINE -->
+            <article class="quote-card">
+
+                <span class="quote-mark"
+                      aria-hidden="true">“</span>
+
+                <blockquote>
+                    « Elle forge l'esprit et le mental.
+                    Elle se vit à plusieurs, pas seul. »
+                </blockquote>
+
+                <div class="quote-person">
+
+                    <span class="person-avatar">C</span>
+
+                    <p>
+                        <strong>Charline</strong>
+                        <small>
+                            Promo 2020–2023 · ENSI Poitiers
+                        </small>
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="section-actions">
+
+            <a class="button button--outline"
+               href="temoignages/">
+                Lire les témoignages ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     7. APRES LA PREPA
+===================================== -->
+
+<section class="section section--soft">
+
+    <div class="container split split--wide-left">
+
+        <div>
+
+            <div class="section-heading">
+
+                <p class="eyebrow">ET APRÈS ?</p>
+
+                <h2>Des chemins qui s'ouvrent</h2>
+
+            </div>
+
+            <p>
+                Au terme de leur CPGE, nos étudiants
+                présentent les concours des écoles
+                d'ingénieurs.
+            </p>
+
+            <p>
+                Chimie, aéronautique, informatique,
+                matériaux, énergie : les domaines
+                sont nombreux.
+            </p>
+
+            <div class="track-list">
+                <span>Chimie</span>
+                <span>Énergie</span>
+                <span>Informatique</span>
+                <span>Aéronautique</span>
+                <span>Matériaux</span>
+            </div>
+
+            <a class="button button--outline"
+               href="apres-la-prepa/">
+                Explorer les parcours ↗
+            </a>
+
+        </div>
+
+        <div class="after-aside">
+
+            <div class="media-slot media-campus"
+                 aria-hidden="true">
+
+                <span class="media-note">
+                    Photo à ajouter
+                </span>
+
+                <strong>
+                    DE LA PRÉPA AUX GRANDES ÉCOLES
+                </strong>
+
+            </div>
+
+            <div class="after-aside-label">
+                Les concours sont une étape.<br>
+                <strong>Les possibilités, multiples.</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     8. ACTUALITES
+===================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="heading-row">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">LA VIE DE LA PRÉPA</p>
+
+                <h2>En ce moment à VH</h2>
+
+            </div>
+
+            <a class="text-link" href="actualites/">
+                Toutes les actualités ↗
+            </a>
+
+        </div>
+
+        <div class="cards cards--3 news-cards">
+
+            <!-- ACTUALITE 1 -->
+            <article class="story-card">
+
+                <div class="media-slot media-class"
+                     aria-hidden="true">
+
+                    <span class="media-note">
+                        Photo à ajouter
+                    </span>
+
+                    <strong>
+                        FORUM DES GRANDES ÉCOLES
+                    </strong>
+
+                </div>
+
+                <div class="story-copy">
+
+                    <p class="mini-label">Vie de la CPGE</p>
+
+                    <h3>Le forum des grandes écoles</h3>
+
+                    <p>
+                        Échanger avec des anciens,
+                        parler concours et imaginer la suite.
+                    </p>
+
+                    <a href="actualites/#forum">
+                        En savoir plus ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- ACTUALITE 2 -->
+            <article class="story-card">
+
+                <div class="media-slot media-snow"
+                     aria-hidden="true">
+
+                    <span class="media-note">
+                        Photo à ajouter
+                    </span>
+
+                    <strong>SÉJOUR AU SKI</strong>
+
+                </div>
+
+                <div class="story-copy">
+
+                    <p class="mini-label">Temps fort</p>
+
+                    <h3>La semaine au ski</h3>
+
+                    <p>
+                        Un moment fort de la première année
+                        pour créer des liens.
+                    </p>
+
+                    <a href="actualites/#ski">
+                        En savoir plus ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- ACTUALITE 3 -->
+            <article class="story-card">
+
+                <div class="media-slot media-warm"
+                     aria-hidden="true">
+
+                    <span class="media-note">
+                        Photo à ajouter
+                    </span>
+
+                    <strong>
+                        RENCONTRE AVEC LES ANCIENS
+                    </strong>
+
+                </div>
+
+                <div class="story-copy">
+
+                    <p class="mini-label">Rencontres</p>
+
+                    <h3>Les anciens reviennent à VH</h3>
+
+                    <p>
+                        Leurs parcours deviennent
+                        des conseils concrets pour
+                        les étudiants.
+                    </p>
+
+                    <a href="actualites/#anciens">
+                        En savoir plus ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     9. CONTACT ET PORTES OUVERTES
+===================================== -->
+
+<section class="meet-section">
+
+    <div class="container meet-grid">
+
+        <div class="meet-image">
+
+            <div class="media-slot media-campus"
+                 aria-hidden="true">
+
+                <span class="media-note">
+                    Photo à ajouter
+                </span>
+
+                <strong>
+                    LYCÉE VICTOR HUGO · CAEN
+                </strong>
+
+            </div>
+
+        </div>
+
+        <div class="meet-content">
+
+            <p class="eyebrow">
+                ENVIE DE NOUS RENCONTRER ?
+            </p>
+
+            <h2>Venez découvrir Victor Hugo</h2>
+
+            <p>
+                Venez échanger avec l'équipe,
+                découvrir le lycée et poser
+                toutes vos questions sur la prépa.
+            </p>
+
+            <p class="small-warning">
+                <strong>Portes ouvertes :</strong>
+                dates et horaires à confirmer
+                auprès du lycée.
+            </p>
+
+            <div class="button-row">
+
+                <a class="button button--primary"
+                   href="infos-pratiques/">
+                    Infos pratiques ↗
+                </a>
+
+                <a class="button button--outline"
+                   href="candidater/">
+                    Préparer ma candidature ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 </main>
+
+
+<!-- =====================================
+     10. FOOTER
+===================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-top">
+
+        <div>
+
+            <p class="footer-brand">
+                VH<span>.</span>
+                <small>CPGE Victor Hugo · Caen</small>
+            </p>
+
+            <p>
+                Une prépa à taille humaine
+                pour de grandes ambitions.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h2>Nous contacter</h2>
+
+            <p>
+                16, rue de la Défense Passive<br>
+                14000 Caen
+            </p>
+
+            <p>
+                <a href="tel:+33231474550">
+                    02 31 47 45 50
+                </a>
+                <br>
+                <a href="mailto:cecilia.guillard@ac-normandie.fr">
+                    Écrire au secrétariat CPGE
+                </a>
+            </p>
+
+        </div>
+
+        <div>
+
+            <h2>Accès rapides</h2>
+
+            <p>
+                <a href="candidater/">Candidater</a><br>
+                <a href="faq/">Questions fréquentes</a><br>
+                <a href="infos-pratiques/">Infos pratiques</a><br>
+                <a href="actualites/">Actualités</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+        <span>© CPGE Victor Hugo — Caen</span>
+
+        <div class="footer-bottom-links">
+
+            <a href="mentions-legales/">
+                Mentions légales
+            </a>
+
+            <a href="confidentialite/">
+                Confidentialité
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
 </body>
 </html>
