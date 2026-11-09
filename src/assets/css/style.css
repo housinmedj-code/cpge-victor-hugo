@@ -351,3 +351,15 @@ strong { color: var(--ink); }
   .footer-bottom-links { margin-top: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+
+/* V2 — sections éditoriales */
+.page-hero-grid--single { grid-template-columns: minmax(0,1fr); max-width: 820px; }
+.page-hero-grid--single .lead { max-width: 770px; }
+.pathway a.path-box { text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
+.pathway a.path-box:hover, .pathway a.path-box:focus-visible { border-color: var(--turquoise-dark); transform: translateY(-2px); }
+.info-card { scroll-margin-top: 26px; }
+.calendar-highlight { background: #E8F3F1; border: 1px solid #C2DFD8; border-radius: 16px; padding: 24px; margin-top: 26px; }
+.calendar-highlight .eyebrow { margin-bottom: 10px; }
+.calendar-highlight ul { margin: 0 0 15px; padding-left: 22px; line-height: 1.8; }
+.calendar-highlight li { padding-bottom: 5px; }
+.calendar-highlight strong { color: var(--ink); }
